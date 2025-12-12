@@ -10,15 +10,8 @@ export interface ProdutoRepository {
     
     cadastrar(produto: Produto): void;
 
-    
     atualizar(produto: Produto): void;
 
-    
     deletar(numero: number): void;
-    
-    
-   
-    procurarPorMarca(marca: string): void;
-    procurarPorEspecie(especie: number): void;
     
 }

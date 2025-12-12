@@ -4,9 +4,9 @@ export class Racao extends Produto {
 
     private _quantidade: number;
 
-    constructor(numero: number, marca: string, especie: number, valor: number, 
-        saldo: number, quantidade: number) {
-        super(numero, marca, especie,  valor);
+    constructor(numero: number, marca: string, especie: string, valor: number, 
+         quantidade: number, tipo: number) {
+        super(numero, marca, especie,  valor, tipo);
         this._quantidade = quantidade;
     }
     

@@ -8,12 +8,12 @@ export class Medicacao extends Produto {
     constructor(
         numero: number, 
         marca: string, 
-        especie: number, 
+        especie: string, 
         valor: number, 
-        dataDeValidade: string 
+        dataDeValidade: string, tipo: number
     ) {
         
-        super(numero, marca, especie, valor); 
+        super(numero, marca, especie, valor, tipo); 
         
         this._dataDeValidade = dataDeValidade;
     }
